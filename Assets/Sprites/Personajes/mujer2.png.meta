@@ -510,7 +510,7 @@ TextureImporter:
       213: 304621605559588781
     second: Download59819_168
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -527,9 +527,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -539,8 +542,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -561,10 +564,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -576,6 +584,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -588,6 +597,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -600,6 +610,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -4164,9 +4201,178 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Download59819_0: -1157484839597251218
+      Download59819_1: 7369235082777194861
+      Download59819_10: 3312202692972620814
+      Download59819_100: 4289964945970523606
+      Download59819_101: -2436232833796613359
+      Download59819_102: 1477224160165106988
+      Download59819_103: 6723819325198191929
+      Download59819_104: -7048518778920770702
+      Download59819_105: -8566913529990594095
+      Download59819_106: -7565439828816001115
+      Download59819_107: -8168423086605437048
+      Download59819_108: 6231669876799843817
+      Download59819_109: -5038303687230243011
+      Download59819_11: 6863606853860862675
+      Download59819_110: -5456487347280178014
+      Download59819_111: 3797785731807194476
+      Download59819_112: -2523172527720600707
+      Download59819_113: 5141939071486892899
+      Download59819_114: -2616726922639157658
+      Download59819_115: -1631590662486328607
+      Download59819_116: 5424127533344557467
+      Download59819_117: -8531253458803760691
+      Download59819_118: 876228556452050436
+      Download59819_119: -8679718164350948044
+      Download59819_12: 1318387445053581694
+      Download59819_120: -2461585668943193017
+      Download59819_121: 3393080166072707626
+      Download59819_122: 4633844509857858345
+      Download59819_123: -9119150098471657093
+      Download59819_124: -3195677673103212779
+      Download59819_125: 6419112298001487179
+      Download59819_126: -7510183694951958829
+      Download59819_127: -2500103757529278898
+      Download59819_128: -5450434820888148819
+      Download59819_129: -4184156680553400419
+      Download59819_13: -8832717326707848034
+      Download59819_130: -48082013923967766
+      Download59819_131: -2932225266224298800
+      Download59819_132: 7701348457513157377
+      Download59819_133: -748196940782720681
+      Download59819_134: -1010455086224987651
+      Download59819_135: -3256887300913192228
+      Download59819_136: -1922885119421236709
+      Download59819_137: -9145588510192586471
+      Download59819_138: -8226293808746527663
+      Download59819_139: -5784258041117798092
+      Download59819_14: 1623994900021718041
+      Download59819_140: -1425284228403591163
+      Download59819_141: 5999092033542310331
+      Download59819_142: -6896784470389537048
+      Download59819_143: 2530580163995886316
+      Download59819_144: 7298480778006970629
+      Download59819_145: 7559039708543583327
+      Download59819_146: 2396615009666757550
+      Download59819_147: 5909657487531553526
+      Download59819_148: -2493077171717864886
+      Download59819_149: -2715929345512782781
+      Download59819_15: -1914485468499131356
+      Download59819_150: -8097830106841886070
+      Download59819_151: 8587447378483650678
+      Download59819_152: 2507753494912304616
+      Download59819_153: 3569187392341133959
+      Download59819_154: -7564327364443596611
+      Download59819_155: 8406104121724415376
+      Download59819_156: 3668041063009556480
+      Download59819_157: 890837623018864673
+      Download59819_158: -7080055257337398471
+      Download59819_159: -7718723405187942008
+      Download59819_16: -4039471221829030413
+      Download59819_160: -1754177769087853805
+      Download59819_161: 6082321344213983926
+      Download59819_162: 6016262248906168027
+      Download59819_163: -3285862561036482266
+      Download59819_164: 6548792992601420753
+      Download59819_165: -3656750498538672957
+      Download59819_166: -1242318171060188427
+      Download59819_167: -954253839866134836
+      Download59819_168: 304621605559588781
+      Download59819_17: -4452483548482753050
+      Download59819_18: 8708809175679148959
+      Download59819_19: -2900475945842737070
+      Download59819_2: 6481893024830442455
+      Download59819_20: -7621177323399050062
+      Download59819_21: -8251738858652885898
+      Download59819_22: -6043902571064080747
+      Download59819_23: -3941183293566897087
+      Download59819_24: -7307407197190167038
+      Download59819_25: -2523265419096816362
+      Download59819_26: -4300465315807169825
+      Download59819_27: -2799900287577325783
+      Download59819_28: 6331185743103698604
+      Download59819_29: -680565957836722402
+      Download59819_3: -8483231105918239619
+      Download59819_30: -2159578250393631260
+      Download59819_31: 6828696708989398524
+      Download59819_32: 7596877082195715273
+      Download59819_33: 1614813728371275760
+      Download59819_34: 4122720406862492032
+      Download59819_35: -8963231460187767029
+      Download59819_36: 2997430854043657286
+      Download59819_37: 3170808773668032510
+      Download59819_38: 7445402646261552462
+      Download59819_39: -2107415880458576452
+      Download59819_4: -4368305665184395855
+      Download59819_40: -3764042109227231878
+      Download59819_41: -8162727777501590797
+      Download59819_42: 47038554393210807
+      Download59819_43: 358695849855526814
+      Download59819_44: -5048868845812846754
+      Download59819_45: -3084649552582049468
+      Download59819_46: -6583043850559688404
+      Download59819_47: 1620245992986115575
+      Download59819_48: 3017427506901423414
+      Download59819_49: 1479300524802964785
+      Download59819_5: 3469399157953249882
+      Download59819_50: 2646463565707000609
+      Download59819_51: 7939151625739352983
+      Download59819_52: 2390300335228286422
+      Download59819_53: 5617068254625525350
+      Download59819_54: -3173572340818531721
+      Download59819_55: 6896547475391010729
+      Download59819_56: 1904975472928130391
+      Download59819_57: 1296585789861917958
+      Download59819_58: -7864851359105146597
+      Download59819_59: -8991860668607763760
+      Download59819_6: 9111345586061040336
+      Download59819_60: -2702026830073163030
+      Download59819_61: 3092256317201848243
+      Download59819_62: -7063218242179858179
+      Download59819_63: 6068004130161225523
+      Download59819_64: -5885668784438967914
+      Download59819_65: -1107900083586379533
+      Download59819_66: 8774423344281285940
+      Download59819_67: 4981243241614552029
+      Download59819_68: -2067903012542833044
+      Download59819_69: -8086337348337117887
+      Download59819_7: 6081446467591816735
+      Download59819_70: -8728007203643798938
+      Download59819_71: -8970707646252690338
+      Download59819_72: -1301098031179346925
+      Download59819_73: 2018614878332049129
+      Download59819_74: -5310988447780231156
+      Download59819_75: 3666525005925455874
+      Download59819_76: -9110867891281965465
+      Download59819_77: 5526373820977744904
+      Download59819_78: 171896134905002513
+      Download59819_79: -8752897394574823914
+      Download59819_8: 4587158349243872777
+      Download59819_80: 6094686286803035610
+      Download59819_81: 5851591755944153485
+      Download59819_82: -2822213235285145994
+      Download59819_83: 4807250141273353846
+      Download59819_84: -745009604137090864
+      Download59819_85: -396307078281836776
+      Download59819_86: 8911245817330640231
+      Download59819_87: -2053360101119492063
+      Download59819_88: -5990291965408394449
+      Download59819_89: -7419437668204841356
+      Download59819_9: 985608187298170047
+      Download59819_90: 5537003400522849075
+      Download59819_91: 2922462683564576857
+      Download59819_92: 6346012164368453802
+      Download59819_93: -263495869203294330
+      Download59819_94: -8234881018496982970
+      Download59819_95: 5636622338781651833
+      Download59819_96: 8950434283215419396
+      Download59819_97: -4743547481608580125
+      Download59819_98: 36007922690571902
+      Download59819_99: 6320831770717823599
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

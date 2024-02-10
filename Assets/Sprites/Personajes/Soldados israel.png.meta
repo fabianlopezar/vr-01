@@ -609,7 +609,7 @@ TextureImporter:
       213: -4458157190855394965
     second: Soldados israel_201
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -626,9 +626,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -638,8 +641,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -660,10 +663,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -675,6 +683,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -687,6 +696,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -699,6 +709,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -4956,9 +4993,211 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Soldados israel_0: 1830462376858687742
+      Soldados israel_1: -1595553926861748356
+      Soldados israel_10: 8671054038170904474
+      Soldados israel_100: 8669927379711916746
+      Soldados israel_101: -1300502856757729403
+      Soldados israel_102: -1378252068787234092
+      Soldados israel_103: 1642421056406600942
+      Soldados israel_104: 411923124898788350
+      Soldados israel_105: -6124425826578843972
+      Soldados israel_106: 1266782197732723620
+      Soldados israel_107: -4312360646031404387
+      Soldados israel_108: -7555476127913161900
+      Soldados israel_109: 3137355539917216968
+      Soldados israel_11: -3763467742308982808
+      Soldados israel_110: 8930386344331915454
+      Soldados israel_111: -9069813049175296283
+      Soldados israel_112: 8196097984486550683
+      Soldados israel_113: 7722510708337165077
+      Soldados israel_114: -3535697561779859874
+      Soldados israel_115: -1146958945179377794
+      Soldados israel_116: 1733960012425561461
+      Soldados israel_117: 6059803141032560018
+      Soldados israel_118: -5903935921342432839
+      Soldados israel_119: -5299157166171233310
+      Soldados israel_12: 3940022761011234971
+      Soldados israel_120: -9130298961177029102
+      Soldados israel_121: -4510849857180990165
+      Soldados israel_122: -5252896670963871776
+      Soldados israel_123: -8495605855749098227
+      Soldados israel_124: -3697557677746286453
+      Soldados israel_125: 7661899724822513071
+      Soldados israel_126: 423962598191817024
+      Soldados israel_127: 3192685177339466127
+      Soldados israel_128: 7664333985378754326
+      Soldados israel_129: 2947748294755251638
+      Soldados israel_13: 1193625449001549382
+      Soldados israel_130: 961262168195681431
+      Soldados israel_131: 6889606698966782450
+      Soldados israel_132: -3422539410400331041
+      Soldados israel_133: -3597150929706306535
+      Soldados israel_134: 3405883082433052447
+      Soldados israel_135: 2616719597833584679
+      Soldados israel_136: -1501884106435642036
+      Soldados israel_137: -1288939426170162917
+      Soldados israel_138: 5209208779410509594
+      Soldados israel_139: 2264508022748628772
+      Soldados israel_14: -7696244390316492776
+      Soldados israel_140: 1475737273184102524
+      Soldados israel_141: 395373882075185532
+      Soldados israel_142: 4935939160685447514
+      Soldados israel_143: -820196034625433266
+      Soldados israel_144: -2761154859966909997
+      Soldados israel_145: 5724860348514124871
+      Soldados israel_146: -4065560811583137783
+      Soldados israel_147: -5493821827685027244
+      Soldados israel_148: -8737017833449952580
+      Soldados israel_149: -2699910448162166260
+      Soldados israel_15: 5645528435239917355
+      Soldados israel_150: 6008281022013365636
+      Soldados israel_151: 3650153762309818806
+      Soldados israel_152: 624577448259635527
+      Soldados israel_153: 583636512366210145
+      Soldados israel_154: 4817164012799187569
+      Soldados israel_155: 3652730152263971779
+      Soldados israel_156: 1244743389343553046
+      Soldados israel_157: 1993680560724779384
+      Soldados israel_158: 3624712345051041083
+      Soldados israel_159: -1314585729750247012
+      Soldados israel_16: 36236463429564470
+      Soldados israel_160: -2772731448395763552
+      Soldados israel_161: -2424588217065764535
+      Soldados israel_162: 8876260196690865094
+      Soldados israel_163: -4955450193134748278
+      Soldados israel_164: 1522737656574272865
+      Soldados israel_165: 3314307854844779004
+      Soldados israel_166: 2226893345289566345
+      Soldados israel_167: -8197035108169531580
+      Soldados israel_168: 593149659215173460
+      Soldados israel_169: -5460972169475742844
+      Soldados israel_17: 2516714084996613128
+      Soldados israel_170: 4727054784423998656
+      Soldados israel_171: -7406597440615990630
+      Soldados israel_172: 5055381188170521109
+      Soldados israel_173: 4818390639028851649
+      Soldados israel_174: -371261759534230524
+      Soldados israel_175: -7013933588772230184
+      Soldados israel_176: -3098629065358154881
+      Soldados israel_177: -5368694400908446332
+      Soldados israel_178: -8870503861445891894
+      Soldados israel_179: 1497786256284281253
+      Soldados israel_18: 3298462742897649494
+      Soldados israel_180: 6035911039373354714
+      Soldados israel_181: 6613012451564355181
+      Soldados israel_182: 9045906258453235320
+      Soldados israel_183: -889474226984654797
+      Soldados israel_184: -4553690360726145657
+      Soldados israel_185: 4955113978418792147
+      Soldados israel_186: -8521368138183136992
+      Soldados israel_187: -1427881940313381699
+      Soldados israel_188: -7395158598988291183
+      Soldados israel_189: 1787353063221815918
+      Soldados israel_19: -1712867826100754302
+      Soldados israel_190: 6561191568403464150
+      Soldados israel_191: 6211143084002459301
+      Soldados israel_192: -1595279053424599120
+      Soldados israel_193: 3469708609698806444
+      Soldados israel_194: 381748238006354989
+      Soldados israel_195: -9112186127557422552
+      Soldados israel_196: -2423752520846306809
+      Soldados israel_197: -3273403939914282756
+      Soldados israel_198: 4682500753950205447
+      Soldados israel_199: 6249801535200920649
+      Soldados israel_2: 1862575180985475122
+      Soldados israel_20: 4294490745069742588
+      Soldados israel_200: -8878200542089075751
+      Soldados israel_201: -4458157190855394965
+      Soldados israel_21: -4513236070893641182
+      Soldados israel_22: 2623465529134639709
+      Soldados israel_23: 3303978181741657975
+      Soldados israel_24: -8665375537453596757
+      Soldados israel_25: 5964818908297317568
+      Soldados israel_26: -5996105199260242421
+      Soldados israel_27: 2148036718523254147
+      Soldados israel_28: -7797749193944016016
+      Soldados israel_29: -7646609385196077467
+      Soldados israel_3: 2675831803848444665
+      Soldados israel_30: -7017802267244427209
+      Soldados israel_31: -3680766870816430858
+      Soldados israel_32: 6109035851257788000
+      Soldados israel_33: -4347959868352339492
+      Soldados israel_34: 3522284139130591927
+      Soldados israel_35: 1050514935788132067
+      Soldados israel_36: -4977690312090196299
+      Soldados israel_37: 3949045844306234950
+      Soldados israel_38: 471665880672531419
+      Soldados israel_39: 4159636354921830399
+      Soldados israel_4: 1421007347145103870
+      Soldados israel_40: -7365369410086427162
+      Soldados israel_41: 1453872811388733678
+      Soldados israel_42: 1510020098889203310
+      Soldados israel_43: 8874010390884032602
+      Soldados israel_44: -1532660221525953861
+      Soldados israel_45: -5927464793161680008
+      Soldados israel_46: -968945401516779433
+      Soldados israel_47: 9125996352347248033
+      Soldados israel_48: 5888245655873647489
+      Soldados israel_49: 6770061679248689122
+      Soldados israel_5: 3261189829266427509
+      Soldados israel_50: 2145066077235218813
+      Soldados israel_51: -2343963422206399468
+      Soldados israel_52: -4723248943163406251
+      Soldados israel_53: 2829897374245159949
+      Soldados israel_54: -4048680327555489505
+      Soldados israel_55: 5125151884308640790
+      Soldados israel_56: 8389418202125610250
+      Soldados israel_57: -3408387534788485123
+      Soldados israel_58: 2661148730769328407
+      Soldados israel_59: -131236061524300575
+      Soldados israel_6: -8773416715365697350
+      Soldados israel_60: 3712928663936002942
+      Soldados israel_61: -3748027839004327041
+      Soldados israel_62: -2734837522859232387
+      Soldados israel_63: -8426300466801885635
+      Soldados israel_64: -9105912422006002657
+      Soldados israel_65: 5520536958448927353
+      Soldados israel_66: -3591762299280021127
+      Soldados israel_67: -3998210954222023248
+      Soldados israel_68: 3035916271656607750
+      Soldados israel_69: -7980487965320681669
+      Soldados israel_7: -148978229042548935
+      Soldados israel_70: 4279815378908794989
+      Soldados israel_71: -8596892154001574970
+      Soldados israel_72: -1446885236674552850
+      Soldados israel_73: 1622424966378942752
+      Soldados israel_74: 4280325910396633137
+      Soldados israel_75: 8406175740954466767
+      Soldados israel_76: 5723392644062442145
+      Soldados israel_77: 6121296815292714792
+      Soldados israel_78: 7511016895505010149
+      Soldados israel_79: -2105560464123596710
+      Soldados israel_8: 3444224044892188829
+      Soldados israel_80: 7454639445744640199
+      Soldados israel_81: 3435496137396842519
+      Soldados israel_82: 6411172451498833306
+      Soldados israel_83: -1758422717706593232
+      Soldados israel_84: -5530271789921615062
+      Soldados israel_85: 7192844951422277104
+      Soldados israel_86: -2111183127442971973
+      Soldados israel_87: -5266612893490910021
+      Soldados israel_88: 6854573378464749854
+      Soldados israel_89: 1637785215881183884
+      Soldados israel_9: 6477084772997334747
+      Soldados israel_90: 3919822163193379558
+      Soldados israel_91: 8512756135384668527
+      Soldados israel_92: -4217134562133712587
+      Soldados israel_93: -6338585144061462678
+      Soldados israel_94: 8469909017613284140
+      Soldados israel_95: -4996918678702604079
+      Soldados israel_96: 4400408781056008396
+      Soldados israel_97: 3679242608982953138
+      Soldados israel_98: -2916635085498589583
+      Soldados israel_99: 7879730977145139554
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

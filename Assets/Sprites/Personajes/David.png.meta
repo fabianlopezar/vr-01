@@ -537,7 +537,7 @@ TextureImporter:
       213: 1784743741054843510
     second: David_177
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -554,9 +554,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -566,8 +569,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -588,10 +591,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -603,6 +611,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -615,6 +624,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -627,6 +637,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -4380,9 +4417,187 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      David_0: 2580713422433055924
+      David_1: -8772939947054047394
+      David_10: 6733359871149317744
+      David_100: 7055140235627446782
+      David_101: -5532705203892576957
+      David_102: 6684018617139676087
+      David_103: -2090420752848521816
+      David_104: -7816399758075567789
+      David_105: -5727695156947572826
+      David_106: -8956830022302510896
+      David_107: 7162248318176263871
+      David_108: -7687990731176034374
+      David_109: -8816133810244413936
+      David_11: 248141548222278070
+      David_110: 7874664243260141189
+      David_111: 7696410027604096945
+      David_112: 4118995313048405253
+      David_113: 6370047190531946447
+      David_114: 2410939192716535334
+      David_115: 8552252870684036627
+      David_116: -8497135630429221722
+      David_117: -1245480582321912057
+      David_118: -68141582764702863
+      David_119: -2147295533706021632
+      David_12: -7838948360794031603
+      David_120: -7479342177171974101
+      David_121: -272067949259346498
+      David_122: -4269910114718924771
+      David_123: 2429806605060037095
+      David_124: -5425022615567979004
+      David_125: -8543579862186762836
+      David_126: -6153180946407943178
+      David_127: 4507746229918927778
+      David_128: -3861717998982715954
+      David_129: -2023278687369775498
+      David_13: -9029928362074563155
+      David_130: 1894937777333389376
+      David_131: -4075896325242083675
+      David_132: -6098385956197625809
+      David_133: -810072917353161015
+      David_134: 592948476820355580
+      David_135: -1086702341731764391
+      David_136: -1018732854154687812
+      David_137: -2314561391352355771
+      David_138: 8801487808715616112
+      David_139: -7265973945123624398
+      David_14: -7097436524222176729
+      David_140: -2971401286497715265
+      David_141: 4740433652455406170
+      David_142: 9007740568819474161
+      David_143: 5244114970065111039
+      David_144: -7267442734682186581
+      David_145: 5327161604869031227
+      David_146: 6936960907712590211
+      David_147: -5878857922135953576
+      David_148: -623080474506290156
+      David_149: -668944925041789600
+      David_15: 3220620876120014463
+      David_150: -5458012791335152871
+      David_151: -7132294353216930617
+      David_152: -2395926160849986879
+      David_153: -8756159057753490483
+      David_154: -4812472448523142045
+      David_155: 3248203907393293349
+      David_156: 3638537905919005072
+      David_157: -2346478478677555370
+      David_158: -7611091744291028092
+      David_159: 7290408310969720338
+      David_16: -4217854966231230652
+      David_160: -6289403981574107712
+      David_161: 2999682053735075857
+      David_162: -8947115040093476555
+      David_163: -5080040936331869139
+      David_164: -2915763064023925538
+      David_165: 1583266250693692213
+      David_166: 315598576658900044
+      David_167: 2565627334744284101
+      David_168: -3607713821051914304
+      David_169: 3062350274660267012
+      David_17: 3314551068437318961
+      David_170: 8066299829714202937
+      David_171: -5483699669951211516
+      David_172: 4852974903448044862
+      David_173: -5752049601927678349
+      David_174: 7475089531402502853
+      David_175: 4804829204174022544
+      David_176: 7346475178524433535
+      David_177: 1784743741054843510
+      David_18: -1159986971741410740
+      David_19: 1236137779814297074
+      David_2: -2779556294450003728
+      David_20: 685482970457242471
+      David_21: -192891871028413256
+      David_22: 1446240109488433000
+      David_23: 8975635263908410906
+      David_24: -9001644799466096164
+      David_25: -6443364685456426906
+      David_26: 4438857323999791837
+      David_27: 5731880382962295098
+      David_28: 1798085104918449950
+      David_29: 6035370408218342512
+      David_3: 5360256127143493515
+      David_30: 3907257453571266255
+      David_31: -7099532823433359914
+      David_32: -8840437591189357126
+      David_33: 2009991298877057721
+      David_34: -3283718386087383128
+      David_35: -6690055197934286291
+      David_36: 7764963990589732042
+      David_37: 1387530467990419813
+      David_38: 6855727117477782355
+      David_39: 1263828088084399294
+      David_4: -6828341241718318131
+      David_40: 4910329579979193638
+      David_41: 7489527257137721351
+      David_42: 3230566115470353185
+      David_43: -3938724040233674369
+      David_44: -2587932137635492686
+      David_45: 3546324146699912251
+      David_46: 8300550327662149148
+      David_47: 1795068415898026999
+      David_48: 922820196555574757
+      David_49: -5468065866974408990
+      David_5: 1589336968452737134
+      David_50: 7098452460592785308
+      David_51: -2902897489095760560
+      David_52: -3442101998582851017
+      David_53: 8581106133699380475
+      David_54: -8296419282172732973
+      David_55: 1158638353426942021
+      David_56: 7972054089221294133
+      David_57: -2468801067202812291
+      David_58: 1427957882260824543
+      David_59: -1653666834239697920
+      David_6: 3245586483583757755
+      David_60: 5755096473908028204
+      David_61: -5445060208682552840
+      David_62: 5868226036134687220
+      David_63: 2897545079657117737
+      David_64: 6542151929070620296
+      David_65: 8740324542753160044
+      David_66: 4430804475452392941
+      David_67: -315476965183243193
+      David_68: -7052809768059150317
+      David_69: -3439528581391656147
+      David_7: 3497693106832057622
+      David_70: 3331928678736295773
+      David_71: 4333117793179245211
+      David_72: -7931677213702569794
+      David_73: 3754552342498232135
+      David_74: 1875414769799533298
+      David_75: -2016355123976645865
+      David_76: 7945457126906276061
+      David_77: 6443367155631790789
+      David_78: -5154868050835247700
+      David_79: 4639250182862430963
+      David_8: -7690655782080942911
+      David_80: -9159880304716398453
+      David_81: -3066102069613350585
+      David_82: -5175708471758323116
+      David_83: -2159635077857607512
+      David_84: 3171626766188297245
+      David_85: 317179420234400595
+      David_86: 1772124161475281820
+      David_87: 2412135980175758771
+      David_88: -909185674285649496
+      David_89: -4947243608710645113
+      David_9: -8013539821333201218
+      David_90: -4614876349816476798
+      David_91: -4103344690145115337
+      David_92: 262397373506831074
+      David_93: -4826751988648623404
+      David_94: -8358037005722645704
+      David_95: -6152447900291047590
+      David_96: 5884750594887641690
+      David_97: -6401846439586503974
+      David_98: -5221373308725902278
+      David_99: 6902174064942268031
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

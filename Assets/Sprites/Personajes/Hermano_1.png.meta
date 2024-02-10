@@ -537,7 +537,7 @@ TextureImporter:
       213: -876269421535945416
     second: GbwqmdDD_177
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -554,9 +554,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -566,8 +569,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -588,10 +591,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -603,6 +611,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -615,6 +624,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -627,6 +637,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -4380,9 +4417,187 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      GbwqmdDD_0: 2723469082196322741
+      GbwqmdDD_1: -6428194344255010421
+      GbwqmdDD_10: -4166223679555964802
+      GbwqmdDD_100: -2926369711305621697
+      GbwqmdDD_101: 2958825085003565826
+      GbwqmdDD_102: 290683455792577359
+      GbwqmdDD_103: 1904532900088782381
+      GbwqmdDD_104: 4488232010332715626
+      GbwqmdDD_105: -7977504427559890732
+      GbwqmdDD_106: 5326214777089625204
+      GbwqmdDD_107: 8707659470443367033
+      GbwqmdDD_108: -2514943405538678567
+      GbwqmdDD_109: 6820317423172729445
+      GbwqmdDD_11: -6574458075340029264
+      GbwqmdDD_110: 7647944547371088285
+      GbwqmdDD_111: -2183610724140981484
+      GbwqmdDD_112: 4935843470354786727
+      GbwqmdDD_113: -1598574590884819184
+      GbwqmdDD_114: 2561909940067834129
+      GbwqmdDD_115: -3096816105999416438
+      GbwqmdDD_116: -2619686640200265906
+      GbwqmdDD_117: -175052929013758811
+      GbwqmdDD_118: -469348306981875223
+      GbwqmdDD_119: -2245194622489791014
+      GbwqmdDD_12: -4608541876732483862
+      GbwqmdDD_120: 1625005101314608294
+      GbwqmdDD_121: 4326256884302090940
+      GbwqmdDD_122: 9164857193601219754
+      GbwqmdDD_123: -707669679280538703
+      GbwqmdDD_124: 1114659588793496107
+      GbwqmdDD_125: -275450068147579449
+      GbwqmdDD_126: -3802119703551763874
+      GbwqmdDD_127: 4121457217471902363
+      GbwqmdDD_128: -70108271387628588
+      GbwqmdDD_129: 2372463127000512344
+      GbwqmdDD_13: -3151585148113173100
+      GbwqmdDD_130: 3304320503260995576
+      GbwqmdDD_131: 3303406262089599962
+      GbwqmdDD_132: -9196730006417604866
+      GbwqmdDD_133: 9105863874627376501
+      GbwqmdDD_134: 4200740714416286926
+      GbwqmdDD_135: 4014244522654391426
+      GbwqmdDD_136: -3232278496529033738
+      GbwqmdDD_137: 573310826809289530
+      GbwqmdDD_138: 683088746458670226
+      GbwqmdDD_139: 6310368560612428310
+      GbwqmdDD_14: 6472744710175976690
+      GbwqmdDD_140: -6132266987525283667
+      GbwqmdDD_141: -2735310016521958570
+      GbwqmdDD_142: -313772590186286745
+      GbwqmdDD_143: 6391998463367493319
+      GbwqmdDD_144: -4566230495643295217
+      GbwqmdDD_145: 4576503165617778175
+      GbwqmdDD_146: 8044943712805892333
+      GbwqmdDD_147: 7881379665536459922
+      GbwqmdDD_148: -3986297426102419266
+      GbwqmdDD_149: -1131085050721893230
+      GbwqmdDD_15: -3675758512415594861
+      GbwqmdDD_150: -1785365310383891947
+      GbwqmdDD_151: -5673513157899438530
+      GbwqmdDD_152: -5280029649700150752
+      GbwqmdDD_153: -8790054918221407774
+      GbwqmdDD_154: -2672522192990856017
+      GbwqmdDD_155: -3083547123538381250
+      GbwqmdDD_156: 4847475411401007277
+      GbwqmdDD_157: -3437666615370683899
+      GbwqmdDD_158: 7625900720263936078
+      GbwqmdDD_159: 2747516565283140680
+      GbwqmdDD_16: -6890275009165999396
+      GbwqmdDD_160: 8415122972591278556
+      GbwqmdDD_161: 3519081432513512121
+      GbwqmdDD_162: -6334012986210710429
+      GbwqmdDD_163: 8864288366129378745
+      GbwqmdDD_164: -7029504127128543448
+      GbwqmdDD_165: 1222892008382002730
+      GbwqmdDD_166: 1321063146068185247
+      GbwqmdDD_167: -1430643896118939821
+      GbwqmdDD_168: -5539113960743380371
+      GbwqmdDD_169: -3270697125939749109
+      GbwqmdDD_17: -7249203442154029099
+      GbwqmdDD_170: -2278053756799228914
+      GbwqmdDD_171: 9145660618157291880
+      GbwqmdDD_172: 935249490819486773
+      GbwqmdDD_173: 3072858260508822635
+      GbwqmdDD_174: 1398145162324602425
+      GbwqmdDD_175: 472161095283967390
+      GbwqmdDD_176: 8337193768213206767
+      GbwqmdDD_177: -876269421535945416
+      GbwqmdDD_18: -8823837788876411307
+      GbwqmdDD_19: 9118276772220093295
+      GbwqmdDD_2: 4745857791722528035
+      GbwqmdDD_20: -5764664129550474877
+      GbwqmdDD_21: 4264690690240598390
+      GbwqmdDD_22: 3679068057178967741
+      GbwqmdDD_23: 3267988305661833450
+      GbwqmdDD_24: -6898894116990593923
+      GbwqmdDD_25: -1036393339080425587
+      GbwqmdDD_26: -1522287731723608142
+      GbwqmdDD_27: 2445930044768621723
+      GbwqmdDD_28: 2026618270016000535
+      GbwqmdDD_29: -2180937746625036844
+      GbwqmdDD_3: 6269755707074795927
+      GbwqmdDD_30: 284089641455609052
+      GbwqmdDD_31: -6574961572239272281
+      GbwqmdDD_32: -2251786216813423968
+      GbwqmdDD_33: -6669171669067318297
+      GbwqmdDD_34: -8138102237445809986
+      GbwqmdDD_35: 6171264206072697984
+      GbwqmdDD_36: -8129728846867248990
+      GbwqmdDD_37: 7453185904936198077
+      GbwqmdDD_38: -2369430394119219342
+      GbwqmdDD_39: -7573062824272425535
+      GbwqmdDD_4: 6473412012335985033
+      GbwqmdDD_40: 2031235343466979003
+      GbwqmdDD_41: -3838359780498819265
+      GbwqmdDD_42: -6472679728168510403
+      GbwqmdDD_43: 5347663172580246798
+      GbwqmdDD_44: 4500096888057244384
+      GbwqmdDD_45: 8484622758188482286
+      GbwqmdDD_46: -7592825791088123099
+      GbwqmdDD_47: 6028956615656328033
+      GbwqmdDD_48: 4917430937174968646
+      GbwqmdDD_49: -4769734920659328783
+      GbwqmdDD_5: -7955923648246448875
+      GbwqmdDD_50: 4551459465169159321
+      GbwqmdDD_51: 7117177857120207768
+      GbwqmdDD_52: -258685829798788183
+      GbwqmdDD_53: -6709977939867259659
+      GbwqmdDD_54: 3478256994912970604
+      GbwqmdDD_55: 2121155481378500074
+      GbwqmdDD_56: -2865713737140864199
+      GbwqmdDD_57: -7159209944623301483
+      GbwqmdDD_58: 3578472144953758945
+      GbwqmdDD_59: 7029890867546342843
+      GbwqmdDD_6: -5076172688289183962
+      GbwqmdDD_60: 1639786222288429349
+      GbwqmdDD_61: 4429457307392859286
+      GbwqmdDD_62: -7860181015110314952
+      GbwqmdDD_63: 2933807322290588529
+      GbwqmdDD_64: -4198281189311140767
+      GbwqmdDD_65: -1566630628294712976
+      GbwqmdDD_66: -8307435775945671868
+      GbwqmdDD_67: 5304034458316091618
+      GbwqmdDD_68: 493870340976515298
+      GbwqmdDD_69: 4374421880382921811
+      GbwqmdDD_7: -4311672748829479160
+      GbwqmdDD_70: 6891527445184641882
+      GbwqmdDD_71: 5045484142601730984
+      GbwqmdDD_72: -8390053119511475757
+      GbwqmdDD_73: 2066294284298556297
+      GbwqmdDD_74: 6519554818737818630
+      GbwqmdDD_75: -6690122676340091027
+      GbwqmdDD_76: -8127177906517225796
+      GbwqmdDD_77: 4103919534890586297
+      GbwqmdDD_78: -1541856904941969541
+      GbwqmdDD_79: 581961932691268122
+      GbwqmdDD_8: 7784790541380849331
+      GbwqmdDD_80: 4673118372774373322
+      GbwqmdDD_81: -4323002371842141344
+      GbwqmdDD_82: 1888959576056501211
+      GbwqmdDD_83: -4666578994399386678
+      GbwqmdDD_84: 9075038116188070669
+      GbwqmdDD_85: -1485175115555806086
+      GbwqmdDD_86: 5179610410237751112
+      GbwqmdDD_87: 1513679524413841809
+      GbwqmdDD_88: 4949448633727980526
+      GbwqmdDD_89: -5694484372581907687
+      GbwqmdDD_9: 8721815565772530830
+      GbwqmdDD_90: 201422645979517068
+      GbwqmdDD_91: -7519625653935672905
+      GbwqmdDD_92: -47507627700497895
+      GbwqmdDD_93: 6466468845793995861
+      GbwqmdDD_94: -5978317133853382057
+      GbwqmdDD_95: 202902725922757256
+      GbwqmdDD_96: -748820466823991983
+      GbwqmdDD_97: -4147196603622688615
+      GbwqmdDD_98: -6376007124135969565
+      GbwqmdDD_99: 399581519117639521
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

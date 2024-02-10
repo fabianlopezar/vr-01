@@ -285,7 +285,7 @@ TextureImporter:
       213: -7486724416402381016
     second: AsSFtpV_93
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -302,9 +302,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -314,8 +317,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -336,10 +339,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -351,6 +359,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -363,6 +372,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -375,6 +385,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2364,9 +2401,103 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      AsSFtpV_0: -7882634655353824516
+      AsSFtpV_1: -9078107381935510452
+      AsSFtpV_10: 465620487524365975
+      AsSFtpV_11: 9123375656945867556
+      AsSFtpV_12: -3596183976134631316
+      AsSFtpV_13: 3053971608211742684
+      AsSFtpV_14: -2497730131070742050
+      AsSFtpV_15: 2102283748019581999
+      AsSFtpV_16: 7150313962415097117
+      AsSFtpV_17: 2510682458097154203
+      AsSFtpV_18: 748048577297997837
+      AsSFtpV_19: 2029741661294673251
+      AsSFtpV_2: 4251274397836073384
+      AsSFtpV_20: 7104619310146698850
+      AsSFtpV_21: -3441613684192621431
+      AsSFtpV_22: -9012804486811156667
+      AsSFtpV_23: -8595572828858124420
+      AsSFtpV_24: -1685607557769723871
+      AsSFtpV_25: -1072199671744174462
+      AsSFtpV_26: -1612128425398072573
+      AsSFtpV_27: 7981337739951066439
+      AsSFtpV_28: 6752492299951880662
+      AsSFtpV_29: -411040470144026920
+      AsSFtpV_3: -1332011843521456516
+      AsSFtpV_30: 4075152643735028341
+      AsSFtpV_31: -3164067531960051910
+      AsSFtpV_32: 564694926829403522
+      AsSFtpV_33: 6198026199033449474
+      AsSFtpV_34: 7850158258255517041
+      AsSFtpV_35: -3662646370308950784
+      AsSFtpV_36: 536999437080515840
+      AsSFtpV_37: 5393378746636247081
+      AsSFtpV_38: 3833276934312218995
+      AsSFtpV_39: 8443935940537366392
+      AsSFtpV_4: 7256334460704764344
+      AsSFtpV_40: 6522696473706602113
+      AsSFtpV_41: -6009040909811314850
+      AsSFtpV_42: -950930262977492695
+      AsSFtpV_43: 6940773261552008311
+      AsSFtpV_44: -2193040269213785548
+      AsSFtpV_45: 7159121268655067668
+      AsSFtpV_46: 6778113794126380897
+      AsSFtpV_47: -4688160997367733839
+      AsSFtpV_48: -8075449904170917859
+      AsSFtpV_49: -3618006399784991872
+      AsSFtpV_5: -9031293103786170818
+      AsSFtpV_50: -368141081012873699
+      AsSFtpV_51: -2741727057816466586
+      AsSFtpV_52: 2651526683675133132
+      AsSFtpV_53: 3711904810514827097
+      AsSFtpV_54: 707457051278001977
+      AsSFtpV_55: -1072858266251010687
+      AsSFtpV_56: 1382041269612080733
+      AsSFtpV_57: -563010489376136792
+      AsSFtpV_58: -7330934636756857309
+      AsSFtpV_59: -7409190759798652184
+      AsSFtpV_6: 2594027889243162892
+      AsSFtpV_60: -7403169388514785957
+      AsSFtpV_61: -264091413647265283
+      AsSFtpV_62: -5232846943925734251
+      AsSFtpV_63: 3240411269717558147
+      AsSFtpV_64: -4943650747774121037
+      AsSFtpV_65: -7284129320150047340
+      AsSFtpV_66: 7024388169559344096
+      AsSFtpV_67: 4537528506049274261
+      AsSFtpV_68: 6927265516233588496
+      AsSFtpV_69: -8956189736360789410
+      AsSFtpV_7: 4262386288818043323
+      AsSFtpV_70: -5684811486793872134
+      AsSFtpV_71: 2717615926824167441
+      AsSFtpV_72: 4271453621307468593
+      AsSFtpV_73: 7695878303700668900
+      AsSFtpV_74: 1338669762271419477
+      AsSFtpV_75: 4729457104165175071
+      AsSFtpV_76: 6587886255207169096
+      AsSFtpV_77: -9191710351834224500
+      AsSFtpV_78: -3897479904934641084
+      AsSFtpV_79: 3829487957932254312
+      AsSFtpV_8: 2843978854685290374
+      AsSFtpV_80: 2814769061454557483
+      AsSFtpV_81: 6828191254286023640
+      AsSFtpV_82: 6941273410352869364
+      AsSFtpV_83: 1492059975017806140
+      AsSFtpV_84: 8423233290768087686
+      AsSFtpV_85: 8629850518257691484
+      AsSFtpV_86: 5809482316379589457
+      AsSFtpV_87: -1851099266784823115
+      AsSFtpV_88: 4399265746843714568
+      AsSFtpV_89: -2783454299010978080
+      AsSFtpV_9: 774701946922359200
+      AsSFtpV_90: 5551900077018860258
+      AsSFtpV_91: 8426629626180959668
+      AsSFtpV_92: -5190142862713879733
+      AsSFtpV_93: -7486724416402381016
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

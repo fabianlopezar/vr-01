@@ -291,7 +291,7 @@ TextureImporter:
       213: 8790844798474648535
     second: mAPf5Zd_95
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -308,9 +308,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -320,8 +323,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -342,10 +345,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -357,6 +365,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -369,6 +378,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -381,6 +391,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2412,9 +2449,105 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      mAPf5Zd_0: 3215735867584657747
+      mAPf5Zd_1: -8174290737421532390
+      mAPf5Zd_10: -2314472491192328314
+      mAPf5Zd_11: -4529848505874604298
+      mAPf5Zd_12: -8152040364797692273
+      mAPf5Zd_13: -2302108198453338492
+      mAPf5Zd_14: -4007932673361725987
+      mAPf5Zd_15: -5316445890088388041
+      mAPf5Zd_16: -5139656028281924236
+      mAPf5Zd_17: 4954298408136035021
+      mAPf5Zd_18: 7453686339817335621
+      mAPf5Zd_19: -8683836079070178413
+      mAPf5Zd_2: -1352781289802864262
+      mAPf5Zd_20: -3523313823539496167
+      mAPf5Zd_21: 7113966008859562731
+      mAPf5Zd_22: 383768258521373279
+      mAPf5Zd_23: 4390600496153495050
+      mAPf5Zd_24: 4021849706012009738
+      mAPf5Zd_25: -7698051158966605726
+      mAPf5Zd_26: -2812039296149265004
+      mAPf5Zd_27: 4982426842092152414
+      mAPf5Zd_28: 1019043720111296593
+      mAPf5Zd_29: 3215465860716270652
+      mAPf5Zd_3: 8356213333992798772
+      mAPf5Zd_30: -6441626110336567398
+      mAPf5Zd_31: 3699138345773159156
+      mAPf5Zd_32: -6963194071489369107
+      mAPf5Zd_33: 190475073362117357
+      mAPf5Zd_34: -3906132836851646799
+      mAPf5Zd_35: -805680238989260757
+      mAPf5Zd_36: -9160536238061725899
+      mAPf5Zd_37: -3163312823399194159
+      mAPf5Zd_38: 3836675961930278988
+      mAPf5Zd_39: 3997984094720445721
+      mAPf5Zd_4: 9192187316345400
+      mAPf5Zd_40: -6868613489138631964
+      mAPf5Zd_41: -5575610995851838194
+      mAPf5Zd_42: -2067021454064672008
+      mAPf5Zd_43: 2315812119985337551
+      mAPf5Zd_44: 8327670461651069776
+      mAPf5Zd_45: 8817856989672757953
+      mAPf5Zd_46: 6990530520478760681
+      mAPf5Zd_47: 1817202911048713194
+      mAPf5Zd_48: -2094239827760740675
+      mAPf5Zd_49: 4547369863787550536
+      mAPf5Zd_5: -6405320287458610087
+      mAPf5Zd_50: 3087041917129296191
+      mAPf5Zd_51: 4332449017372705834
+      mAPf5Zd_52: -5409055898304104342
+      mAPf5Zd_53: 5649859686717031675
+      mAPf5Zd_54: -131384397815154400
+      mAPf5Zd_55: -6930607640301770220
+      mAPf5Zd_56: -1772785417654520345
+      mAPf5Zd_57: 1064399957951689588
+      mAPf5Zd_58: -5564442633138283911
+      mAPf5Zd_59: -1865962723522860991
+      mAPf5Zd_6: 5832920206449228097
+      mAPf5Zd_60: -4750714620260299245
+      mAPf5Zd_61: -4355511395426299692
+      mAPf5Zd_62: 2844423478926837784
+      mAPf5Zd_63: -2725430340487135845
+      mAPf5Zd_64: 1567331356178353261
+      mAPf5Zd_65: 7680615306614317656
+      mAPf5Zd_66: -6672208555400402819
+      mAPf5Zd_67: -3683067903592570325
+      mAPf5Zd_68: 4856777030916208877
+      mAPf5Zd_69: -8925443541458579846
+      mAPf5Zd_7: -3749796617984339247
+      mAPf5Zd_70: -7606445199987450819
+      mAPf5Zd_71: 3239912860112377915
+      mAPf5Zd_72: -2691224845509026576
+      mAPf5Zd_73: -2392749974978129041
+      mAPf5Zd_74: 4006778323403898702
+      mAPf5Zd_75: 3889358597905368587
+      mAPf5Zd_76: -5687073387104963279
+      mAPf5Zd_77: 1098583674380425765
+      mAPf5Zd_78: -6255213653279153912
+      mAPf5Zd_79: 5438231104335563735
+      mAPf5Zd_8: -3534421887285673356
+      mAPf5Zd_80: 4124852533416413830
+      mAPf5Zd_81: 1878215329604575709
+      mAPf5Zd_82: 3427687714567080909
+      mAPf5Zd_83: -5138498398571004384
+      mAPf5Zd_84: 6966229015269667846
+      mAPf5Zd_85: -3594608846374560674
+      mAPf5Zd_86: 5281788513758517337
+      mAPf5Zd_87: 2078683786819738753
+      mAPf5Zd_88: 7010097677315826278
+      mAPf5Zd_89: 3444654852130727635
+      mAPf5Zd_9: 6455065775166982022
+      mAPf5Zd_90: 8787968643288225725
+      mAPf5Zd_91: -5571375563003166578
+      mAPf5Zd_92: -7328221335135098892
+      mAPf5Zd_93: 8753531883835457934
+      mAPf5Zd_94: -7204977922938974168
+      mAPf5Zd_95: 8790844798474648535
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

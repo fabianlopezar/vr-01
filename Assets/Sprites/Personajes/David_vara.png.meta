@@ -537,7 +537,7 @@ TextureImporter:
       213: 7338796482065664946
     second: David_vara_177
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -554,9 +554,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -566,8 +569,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -588,10 +591,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -603,6 +611,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -615,6 +624,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -627,6 +637,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -4380,9 +4417,187 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      David_vara_0: -4941178920800295628
+      David_vara_1: 4126814552299782157
+      David_vara_10: 373546203829049537
+      David_vara_100: 9143352398120167160
+      David_vara_101: 48370430997960146
+      David_vara_102: 4460719679159644493
+      David_vara_103: -1178061971374510973
+      David_vara_104: -8333226126769622716
+      David_vara_105: -5965714144591815435
+      David_vara_106: -6098687895137838732
+      David_vara_107: 534565611329695716
+      David_vara_108: 1454343247805510480
+      David_vara_109: -2870432873792400315
+      David_vara_11: 5692126772297523883
+      David_vara_110: -1287339851189741835
+      David_vara_111: -1394071964028720370
+      David_vara_112: 172652477655039137
+      David_vara_113: 8461318668817471651
+      David_vara_114: -3052198706046749546
+      David_vara_115: 6139307181330704048
+      David_vara_116: -8340682339610545190
+      David_vara_117: 4803227668877029890
+      David_vara_118: 6884092623908574225
+      David_vara_119: -3637897785671375392
+      David_vara_12: -8525560200224506180
+      David_vara_120: -3062863008166942592
+      David_vara_121: 2093910889184230172
+      David_vara_122: -7470965403298157710
+      David_vara_123: 8672986143096987373
+      David_vara_124: -834998781356079645
+      David_vara_125: 7334711333541474770
+      David_vara_126: -125086824471197869
+      David_vara_127: -8651827540836190366
+      David_vara_128: -6506485262078296181
+      David_vara_129: -799792695923544531
+      David_vara_13: -382212888836344768
+      David_vara_130: 1469156347022482000
+      David_vara_131: -2686970842255940356
+      David_vara_132: 843680288414461718
+      David_vara_133: -9014551617357439112
+      David_vara_134: 2606479029850775536
+      David_vara_135: -1094451896937745035
+      David_vara_136: 489760159472142287
+      David_vara_137: 2873799954257829381
+      David_vara_138: 8714940289670763297
+      David_vara_139: -739107478142687856
+      David_vara_14: -5440282304652181794
+      David_vara_140: 2300815834736005607
+      David_vara_141: 6796691725897670036
+      David_vara_142: 7174954896134754861
+      David_vara_143: -1459849234328372102
+      David_vara_144: -7414669360111065850
+      David_vara_145: 1851166350901717408
+      David_vara_146: 1040385063244441203
+      David_vara_147: 3025079290261912312
+      David_vara_148: -3422636019796155135
+      David_vara_149: 5225584237927937793
+      David_vara_15: 8640790651012388390
+      David_vara_150: -8447562274095463029
+      David_vara_151: -6217457914740578963
+      David_vara_152: 5147016354594849824
+      David_vara_153: 359689643896264378
+      David_vara_154: -1049681087580851901
+      David_vara_155: -491865888280695582
+      David_vara_156: 8863940583850219731
+      David_vara_157: 1522166494072373666
+      David_vara_158: -4624108181903012639
+      David_vara_159: 7518322774904350777
+      David_vara_16: 6951553964240385551
+      David_vara_160: -3903928522001794930
+      David_vara_161: 1262997672463672640
+      David_vara_162: -3415099909823983420
+      David_vara_163: 6806723406314000285
+      David_vara_164: 8531347572009261675
+      David_vara_165: -5591924136678088769
+      David_vara_166: 2533422524194867076
+      David_vara_167: -2658984049728825579
+      David_vara_168: -4088559803619784967
+      David_vara_169: 6299552940505388930
+      David_vara_17: 5532194808632690334
+      David_vara_170: -7696425129094185036
+      David_vara_171: 8420730758412750019
+      David_vara_172: 3461491103131685413
+      David_vara_173: -9058845172620454151
+      David_vara_174: 6774061583982826283
+      David_vara_175: -2230139225963326282
+      David_vara_176: -3868173710313087740
+      David_vara_177: 7338796482065664946
+      David_vara_18: 2752212642924181665
+      David_vara_19: -7424501478230084765
+      David_vara_2: 3305504011851374017
+      David_vara_20: 562707436971003921
+      David_vara_21: -4071236200183256148
+      David_vara_22: 3258263208638567505
+      David_vara_23: -6188979575195734910
+      David_vara_24: 1761315138664849118
+      David_vara_25: -1694845198736084625
+      David_vara_26: -678403807839475069
+      David_vara_27: 6275656138209647847
+      David_vara_28: 8826660111575366264
+      David_vara_29: 2601834728510274253
+      David_vara_3: -6044375270688691120
+      David_vara_30: -169909425886465451
+      David_vara_31: 3038362900439800760
+      David_vara_32: 9165870991782128089
+      David_vara_33: -4606030552650623722
+      David_vara_34: 2897407642685670722
+      David_vara_35: -1070142764555413348
+      David_vara_36: -972680764980627147
+      David_vara_37: 909020014994476567
+      David_vara_38: -6783367513294137126
+      David_vara_39: -4420871391314434907
+      David_vara_4: 5451013587927831726
+      David_vara_40: 3809520817495152102
+      David_vara_41: -9027174607335277959
+      David_vara_42: -1340976405693406566
+      David_vara_43: -5828705406279086076
+      David_vara_44: -731932412564220640
+      David_vara_45: 2335600245402797742
+      David_vara_46: 4300435040437420063
+      David_vara_47: -8612466920913857439
+      David_vara_48: 5452026660688779176
+      David_vara_49: -1097969945518866275
+      David_vara_5: 6530143131248293785
+      David_vara_50: 6107953504268970350
+      David_vara_51: 6534406520457509127
+      David_vara_52: -5978933165565254825
+      David_vara_53: -3112734343298089945
+      David_vara_54: 832861721685772927
+      David_vara_55: -7131797745933636536
+      David_vara_56: -3118092812409749712
+      David_vara_57: -4779449590383835485
+      David_vara_58: 3432143172188897594
+      David_vara_59: -7969151918528229271
+      David_vara_6: -9166109399244626196
+      David_vara_60: 7663175006083398101
+      David_vara_61: 9155457794494258433
+      David_vara_62: 5153392711725047797
+      David_vara_63: 1469631908427968186
+      David_vara_64: -3001149307295213279
+      David_vara_65: -4441368663595279464
+      David_vara_66: -6611702204710589109
+      David_vara_67: 2486663400488275623
+      David_vara_68: 2760185147663673434
+      David_vara_69: -6799090455623030637
+      David_vara_7: 6208176174872424047
+      David_vara_70: 2537522298984795807
+      David_vara_71: -1942031012512865266
+      David_vara_72: -1870415524266657622
+      David_vara_73: 1285388402729360834
+      David_vara_74: -4290850967656351031
+      David_vara_75: 4739580600266096308
+      David_vara_76: -9140364318840415128
+      David_vara_77: 6040298249585882093
+      David_vara_78: 2950137203097758784
+      David_vara_79: 5137004831259938792
+      David_vara_8: -4127423757596400690
+      David_vara_80: 2052760012763564490
+      David_vara_81: 844847354147367153
+      David_vara_82: 9125534392126603895
+      David_vara_83: -5795213856784131459
+      David_vara_84: 7881372146237768537
+      David_vara_85: -6430769705174582065
+      David_vara_86: -5391340798419838686
+      David_vara_87: 4053428087303646893
+      David_vara_88: 5362469170523425095
+      David_vara_89: 154815481945849646
+      David_vara_9: 9218035251670035107
+      David_vara_90: -8709279123996353545
+      David_vara_91: 6695932829680183339
+      David_vara_92: -5210067230176662145
+      David_vara_93: -8831347402874913116
+      David_vara_94: -5681415525461556465
+      David_vara_95: 9139650990694252187
+      David_vara_96: 5206659466923251721
+      David_vara_97: -5753296802507822446
+      David_vara_98: -6026120836909819406
+      David_vara_99: -3901251370838415082
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

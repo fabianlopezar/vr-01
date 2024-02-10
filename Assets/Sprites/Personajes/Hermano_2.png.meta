@@ -537,7 +537,7 @@ TextureImporter:
       213: -1191130391707792399
     second: Hermano_2_177
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -554,9 +554,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -566,8 +569,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -588,10 +591,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -603,6 +611,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -615,6 +624,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -627,6 +637,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -4380,9 +4417,187 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Hermano_2_0: -5572874683202079175
+      Hermano_2_1: 6973469624688034079
+      Hermano_2_10: 6461169806845336186
+      Hermano_2_100: -8807076191230881716
+      Hermano_2_101: -8808104345979279216
+      Hermano_2_102: -3657105557695498776
+      Hermano_2_103: -5063547713363013311
+      Hermano_2_104: 2750638109130179950
+      Hermano_2_105: 2794423618030389947
+      Hermano_2_106: 6603820957589284121
+      Hermano_2_107: 3601921840408265437
+      Hermano_2_108: -7507588330915283585
+      Hermano_2_109: -1530833757045316836
+      Hermano_2_11: -4773097124075069312
+      Hermano_2_110: 5947639460900987949
+      Hermano_2_111: -2920839932454180058
+      Hermano_2_112: -3439651311014054411
+      Hermano_2_113: 6224015860097888027
+      Hermano_2_114: 3544556853903350964
+      Hermano_2_115: 1884975361194774622
+      Hermano_2_116: 8901718669658127308
+      Hermano_2_117: 4163208672582278754
+      Hermano_2_118: 504621638224400859
+      Hermano_2_119: -4814040403717431102
+      Hermano_2_12: 1079245010501029375
+      Hermano_2_120: 5638105572449353131
+      Hermano_2_121: -2096382102720538577
+      Hermano_2_122: 7538116961877848869
+      Hermano_2_123: 8566591421874736735
+      Hermano_2_124: -4001241833773390346
+      Hermano_2_125: -3927379729685706433
+      Hermano_2_126: -7756418431519682201
+      Hermano_2_127: -1629890520604666658
+      Hermano_2_128: 830837455993336775
+      Hermano_2_129: -5075251762350633906
+      Hermano_2_13: 3926985742844164196
+      Hermano_2_130: -1909819612445751530
+      Hermano_2_131: -8611070013618167023
+      Hermano_2_132: -2028502155784644395
+      Hermano_2_133: -1158646699155760950
+      Hermano_2_134: -3064223840045085436
+      Hermano_2_135: 2287189769670772945
+      Hermano_2_136: 8859280837795109799
+      Hermano_2_137: 1660967187115079007
+      Hermano_2_138: -2454534435892884112
+      Hermano_2_139: 8056258160114406588
+      Hermano_2_14: 5300705361504105894
+      Hermano_2_140: -4671112870384434752
+      Hermano_2_141: 954508914399993664
+      Hermano_2_142: 8080377339192484106
+      Hermano_2_143: 427006771620301922
+      Hermano_2_144: -5849727981830087440
+      Hermano_2_145: 859674507545384464
+      Hermano_2_146: 5095866419672404054
+      Hermano_2_147: -6428029235888365920
+      Hermano_2_148: 4389584191787488517
+      Hermano_2_149: 3462903027224804193
+      Hermano_2_15: 3563192370010383661
+      Hermano_2_150: -2211690404843650196
+      Hermano_2_151: -9076261913055227112
+      Hermano_2_152: 7006065158497132314
+      Hermano_2_153: -7986751303424597296
+      Hermano_2_154: -4342299813336820319
+      Hermano_2_155: -28616267601814586
+      Hermano_2_156: 6699684977101958884
+      Hermano_2_157: 2891208701736760729
+      Hermano_2_158: 6101153759187363758
+      Hermano_2_159: 2712980669499381308
+      Hermano_2_16: 8269369724742131449
+      Hermano_2_160: -5228667454792071316
+      Hermano_2_161: -8517742716286202388
+      Hermano_2_162: -1309920214035570715
+      Hermano_2_163: 580684424386506632
+      Hermano_2_164: -4057179488053866503
+      Hermano_2_165: -6102185250144434592
+      Hermano_2_166: 6544890930885409389
+      Hermano_2_167: 2602727897309916580
+      Hermano_2_168: -2206117704659979833
+      Hermano_2_169: -2119749430208830452
+      Hermano_2_17: 8732861916999179121
+      Hermano_2_170: -5678478876388175775
+      Hermano_2_171: -2230332254940066201
+      Hermano_2_172: -1441171276895831680
+      Hermano_2_173: 7205452186915699996
+      Hermano_2_174: 9110656923254588407
+      Hermano_2_175: 4089584865347464278
+      Hermano_2_176: -2587600613869956616
+      Hermano_2_177: -1191130391707792399
+      Hermano_2_18: 5019389376371554894
+      Hermano_2_19: -3354136536020120285
+      Hermano_2_2: 532062397714170279
+      Hermano_2_20: -3100412595271975745
+      Hermano_2_21: 9041219436789566896
+      Hermano_2_22: -7084825072779079071
+      Hermano_2_23: -5205067841046192416
+      Hermano_2_24: -4051040245564310341
+      Hermano_2_25: 7637791300308363297
+      Hermano_2_26: 6538340078561710525
+      Hermano_2_27: 3606778628946952269
+      Hermano_2_28: 1611695186859304323
+      Hermano_2_29: -986635057671408364
+      Hermano_2_3: -9173502112885185100
+      Hermano_2_30: -5389481515405503685
+      Hermano_2_31: -4562073439978477227
+      Hermano_2_32: -8565257272240309646
+      Hermano_2_33: -7944917143263735011
+      Hermano_2_34: 6481764315144982712
+      Hermano_2_35: -943367209498573411
+      Hermano_2_36: -6471427660594920457
+      Hermano_2_37: 8609569295837860943
+      Hermano_2_38: -4922028576665116904
+      Hermano_2_39: -5772856609303932374
+      Hermano_2_4: -2678061937712922265
+      Hermano_2_40: 5243615037411163350
+      Hermano_2_41: 1399210738980663735
+      Hermano_2_42: 7906367151809015159
+      Hermano_2_43: 2861923565880142800
+      Hermano_2_44: -711542215939270330
+      Hermano_2_45: 4199432755708536052
+      Hermano_2_46: 5788848216548314426
+      Hermano_2_47: 6704097170906361059
+      Hermano_2_48: -5738854509713069772
+      Hermano_2_49: -1752046468475358832
+      Hermano_2_5: -5513534145842737637
+      Hermano_2_50: -7802857385134684299
+      Hermano_2_51: 5163344709463675662
+      Hermano_2_52: -6123870809785922903
+      Hermano_2_53: -1327620463844577545
+      Hermano_2_54: 639913486065659298
+      Hermano_2_55: -7327493196619827321
+      Hermano_2_56: 1660211010810096107
+      Hermano_2_57: 1779281584452315443
+      Hermano_2_58: -1668535393484830693
+      Hermano_2_59: -8268517465937964185
+      Hermano_2_6: -2310449319826891268
+      Hermano_2_60: -2446940458906953694
+      Hermano_2_61: 3604416737234574545
+      Hermano_2_62: -7540522572726234202
+      Hermano_2_63: 5887133526244921067
+      Hermano_2_64: 8934815731988840087
+      Hermano_2_65: -6561075859432953415
+      Hermano_2_66: -1005257977531756464
+      Hermano_2_67: -2026601395505516784
+      Hermano_2_68: 5985063062804002834
+      Hermano_2_69: -624873170870622688
+      Hermano_2_7: 6843252372724960364
+      Hermano_2_70: -3279330667166950395
+      Hermano_2_71: 2188954810614380697
+      Hermano_2_72: -6636736464570445383
+      Hermano_2_73: 1226406807540192119
+      Hermano_2_74: -7686138732250813164
+      Hermano_2_75: -7018365372429385458
+      Hermano_2_76: 8763988360735502333
+      Hermano_2_77: 4530646513030712987
+      Hermano_2_78: -3929828431039159786
+      Hermano_2_79: 4481168765716241095
+      Hermano_2_8: 1091066533011233972
+      Hermano_2_80: -7933473141826776580
+      Hermano_2_81: -1445121554063587416
+      Hermano_2_82: -4048716376222535674
+      Hermano_2_83: 8964499131577797298
+      Hermano_2_84: -1983006552740740957
+      Hermano_2_85: 4311281297491140138
+      Hermano_2_86: 4566260344519545439
+      Hermano_2_87: 8073765416202818688
+      Hermano_2_88: -4138437310336781341
+      Hermano_2_89: -7246768824172160522
+      Hermano_2_9: 5492461570693761785
+      Hermano_2_90: -3164863731307935556
+      Hermano_2_91: -273851041177765410
+      Hermano_2_92: -5404781180077726550
+      Hermano_2_93: -7015049254089651382
+      Hermano_2_94: -4703590894675549954
+      Hermano_2_95: 461714158724717185
+      Hermano_2_96: -640567043378593896
+      Hermano_2_97: 6559217163319137332
+      Hermano_2_98: 1074081026611706665
+      Hermano_2_99: -1029538742599810001
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

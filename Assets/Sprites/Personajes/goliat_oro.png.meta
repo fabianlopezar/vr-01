@@ -609,7 +609,7 @@ TextureImporter:
       213: -5937633353485044785
     second: goliat_oro_201
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -626,9 +626,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -638,8 +641,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -660,10 +663,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -675,6 +683,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -687,6 +696,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -699,6 +709,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -4956,9 +4993,211 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      goliat_oro_0: -7638250738842424408
+      goliat_oro_1: -6801824346986580196
+      goliat_oro_10: 2300962851051089295
+      goliat_oro_100: 2674746883284961846
+      goliat_oro_101: -9079432467640067942
+      goliat_oro_102: 1603280119270586821
+      goliat_oro_103: 7468914769565862468
+      goliat_oro_104: -8428790522050558262
+      goliat_oro_105: -7525410902185494352
+      goliat_oro_106: 4913175296683605767
+      goliat_oro_107: -1650458052413461983
+      goliat_oro_108: -7855477668140747971
+      goliat_oro_109: 3992969846748135467
+      goliat_oro_11: 5328859229042818646
+      goliat_oro_110: 551814696941547596
+      goliat_oro_111: -4950486082453491648
+      goliat_oro_112: -7808404901208173470
+      goliat_oro_113: -3635778179502405516
+      goliat_oro_114: 8668622296234679553
+      goliat_oro_115: -7873617382570342808
+      goliat_oro_116: -2880950275608910264
+      goliat_oro_117: -8774930471916119740
+      goliat_oro_118: -991235583051363508
+      goliat_oro_119: -5529509819594706331
+      goliat_oro_12: -3072387602292505429
+      goliat_oro_120: 7646546403394370201
+      goliat_oro_121: -6831149926782580930
+      goliat_oro_122: -3984642185726906340
+      goliat_oro_123: 9189244742809635683
+      goliat_oro_124: 2480804538059472536
+      goliat_oro_125: -143895380554070616
+      goliat_oro_126: -5595959673720886267
+      goliat_oro_127: -922821834961179267
+      goliat_oro_128: -8410038990435724335
+      goliat_oro_129: 964750183855984947
+      goliat_oro_13: -2408467226973805501
+      goliat_oro_130: -2233696077844854479
+      goliat_oro_131: -1916365054240743295
+      goliat_oro_132: 6710481339461605916
+      goliat_oro_133: 3490009643580541817
+      goliat_oro_134: 2776245998040398816
+      goliat_oro_135: 4854474843806988793
+      goliat_oro_136: 1253791704684505353
+      goliat_oro_137: -7794097635675244063
+      goliat_oro_138: 1096273303526342196
+      goliat_oro_139: -6310044888504072529
+      goliat_oro_14: 2066067567825335825
+      goliat_oro_140: 1452702012709679037
+      goliat_oro_141: -7630447324440358839
+      goliat_oro_142: 4401799532740102355
+      goliat_oro_143: -7908020759376017486
+      goliat_oro_144: -7537947257766943990
+      goliat_oro_145: 1599300084412026985
+      goliat_oro_146: -5531820750694263965
+      goliat_oro_147: 3946573707589686432
+      goliat_oro_148: -6350478578409418970
+      goliat_oro_149: 718094786134270982
+      goliat_oro_15: 9112187976946178751
+      goliat_oro_150: 7616624703876561686
+      goliat_oro_151: 1629060427939775252
+      goliat_oro_152: 1361136074804960546
+      goliat_oro_153: -106439823841592031
+      goliat_oro_154: -1884448899876530153
+      goliat_oro_155: -4729101054865624113
+      goliat_oro_156: 4595419309644898582
+      goliat_oro_157: 8863749742656543732
+      goliat_oro_158: 7236932491233919341
+      goliat_oro_159: 1111731146226137193
+      goliat_oro_16: 8048197354755235274
+      goliat_oro_160: 2010522494995103634
+      goliat_oro_161: -243349126123938111
+      goliat_oro_162: -8107673321701364682
+      goliat_oro_163: 741085512662445766
+      goliat_oro_164: 5398470422963824318
+      goliat_oro_165: 158155194587058159
+      goliat_oro_166: 7254957996644181537
+      goliat_oro_167: 4885363910460321077
+      goliat_oro_168: -4789479613052116748
+      goliat_oro_169: -7184095182187924418
+      goliat_oro_17: 3436860151648401168
+      goliat_oro_170: -757053603009680383
+      goliat_oro_171: -6687295104611452429
+      goliat_oro_172: -144992876549964835
+      goliat_oro_173: 4943616757983984786
+      goliat_oro_174: -7446617908658020784
+      goliat_oro_175: -8475023915303255855
+      goliat_oro_176: 5104769355998170453
+      goliat_oro_177: 5712831739925457092
+      goliat_oro_178: -7482284743315135832
+      goliat_oro_179: 2735031360715947347
+      goliat_oro_18: 9199554425493489127
+      goliat_oro_180: 962037224133838794
+      goliat_oro_181: 1709142643504566791
+      goliat_oro_182: 7641466670421491916
+      goliat_oro_183: 4486911823730515685
+      goliat_oro_184: -7458249098639277808
+      goliat_oro_185: -318282617829151702
+      goliat_oro_186: 4233837186307542890
+      goliat_oro_187: 2866661441615919802
+      goliat_oro_188: 4635745070879707654
+      goliat_oro_189: -1176903244307347666
+      goliat_oro_19: -334369215000992597
+      goliat_oro_190: -5817308895322674701
+      goliat_oro_191: -4761766221299920016
+      goliat_oro_192: 3703223904918798885
+      goliat_oro_193: -4448860736764766347
+      goliat_oro_194: 4980406056685729697
+      goliat_oro_195: -4702888771777619968
+      goliat_oro_196: 4535125487025745640
+      goliat_oro_197: -5230248380214422096
+      goliat_oro_198: -8327962333854297680
+      goliat_oro_199: 1828622992386512315
+      goliat_oro_2: 3893736260337488740
+      goliat_oro_20: 7763567270104028549
+      goliat_oro_200: -3246913714761554480
+      goliat_oro_201: -5937633353485044785
+      goliat_oro_21: 5142872014802175458
+      goliat_oro_22: -8405939951509526493
+      goliat_oro_23: 2278709096302409207
+      goliat_oro_24: 2550160010826977506
+      goliat_oro_25: 3562127592731480503
+      goliat_oro_26: 3429778862852753836
+      goliat_oro_27: 2689705089157645012
+      goliat_oro_28: -7304669537833501191
+      goliat_oro_29: -9176311969184652772
+      goliat_oro_3: -871183295625163191
+      goliat_oro_30: 4134910427607569965
+      goliat_oro_31: -8709378612651366622
+      goliat_oro_32: 1748223623223882427
+      goliat_oro_33: 3152014399255323199
+      goliat_oro_34: -5575568630712184310
+      goliat_oro_35: -1362845058064441555
+      goliat_oro_36: -4138951099330802127
+      goliat_oro_37: -8154347832688424157
+      goliat_oro_38: 1683972764064266403
+      goliat_oro_39: 1587667084869690211
+      goliat_oro_4: 2708212875001018141
+      goliat_oro_40: 8352139565287772359
+      goliat_oro_41: -4945517817870756777
+      goliat_oro_42: -1493511887171259734
+      goliat_oro_43: 1472187478677602416
+      goliat_oro_44: -1082447856182810588
+      goliat_oro_45: -7715475618380509373
+      goliat_oro_46: 814576038262982579
+      goliat_oro_47: -3903704582484767090
+      goliat_oro_48: -601726075252572467
+      goliat_oro_49: 5376820881931767561
+      goliat_oro_5: -7326562828659252677
+      goliat_oro_50: 2347365466854203700
+      goliat_oro_51: 4517261128484182976
+      goliat_oro_52: 4850631541214990359
+      goliat_oro_53: 3402756397135870297
+      goliat_oro_54: -7074284475163871450
+      goliat_oro_55: 8416226108897623878
+      goliat_oro_56: 6845877122607832493
+      goliat_oro_57: -7563342713265093191
+      goliat_oro_58: 4557940435244101567
+      goliat_oro_59: -1137465491633203785
+      goliat_oro_6: 3835147036807761947
+      goliat_oro_60: 9149121690126558743
+      goliat_oro_61: -7017626692942040179
+      goliat_oro_62: 4949844855509706128
+      goliat_oro_63: 4256992319915123340
+      goliat_oro_64: 3773001964855589076
+      goliat_oro_65: 1677539774357333453
+      goliat_oro_66: -547065414589506200
+      goliat_oro_67: -165126947627762448
+      goliat_oro_68: -8455508795402389416
+      goliat_oro_69: -5863563472726723116
+      goliat_oro_7: -3674608273728519281
+      goliat_oro_70: -6713784823707099682
+      goliat_oro_71: -6738650584762619859
+      goliat_oro_72: 4174837038165530295
+      goliat_oro_73: 7732863348822313794
+      goliat_oro_74: 510113163468697108
+      goliat_oro_75: -3444992481609354062
+      goliat_oro_76: 6430492288848370424
+      goliat_oro_77: 6878375426981611380
+      goliat_oro_78: -5614887190236789532
+      goliat_oro_79: 6921609954097013239
+      goliat_oro_8: -8681703462249864105
+      goliat_oro_80: 5191297744448663696
+      goliat_oro_81: -2052482338503844719
+      goliat_oro_82: -970238558443907683
+      goliat_oro_83: 1382986930557524868
+      goliat_oro_84: 8395379878636216784
+      goliat_oro_85: -2622241553068552076
+      goliat_oro_86: -8417140630603168476
+      goliat_oro_87: -9036955974840079699
+      goliat_oro_88: -5061653219638115249
+      goliat_oro_89: -6614132672205129714
+      goliat_oro_9: 2308554760084392914
+      goliat_oro_90: 4794374730674870584
+      goliat_oro_91: 8806984034748369962
+      goliat_oro_92: -2562539560384839152
+      goliat_oro_93: 1675478439976474508
+      goliat_oro_94: -5959635841709082785
+      goliat_oro_95: 1449034289315725971
+      goliat_oro_96: -4796076886362352577
+      goliat_oro_97: 4279473197666289956
+      goliat_oro_98: -5675499177125772103
+      goliat_oro_99: -1209895518122433452
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -9,7 +9,7 @@ public class CharacterMove : MonoBehaviour
     public Joystick joystick;
     [Header("Menu Debug")]
     public bool esPc;
-
+   
     private void Update()
     {
         if (esPc)

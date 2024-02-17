@@ -396,7 +396,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 150
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -508,9 +508,9 @@ TextureImporter:
       name: Outside_B_1
       rect:
         serializedVersion: 2
-        x: 390
+        x: 389
         y: 672
-        width: 85
+        width: 87
         height: 95
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -529,10 +529,10 @@ TextureImporter:
       name: Outside_B_2
       rect:
         serializedVersion: 2
-        x: 434
+        x: 479
         y: 624
-        width: 142
-        height: 144
+        width: 49
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,9 +593,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 672
-        y: 576
+        y: 625
         width: 48
-        height: 187
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -616,7 +616,7 @@ TextureImporter:
         x: 720
         y: 576
         width: 48
-        height: 192
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -844,10 +844,10 @@ TextureImporter:
       name: Outside_B_17
       rect:
         serializedVersion: 2
-        x: 576
-        y: 480
-        width: 96
-        height: 143
+        x: 623
+        y: 526
+        width: 49
+        height: 97
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1055,9 +1055,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 535
-        y: 539
+        y: 533
         width: 37
-        height: 27
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1072,33 +1072,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Outside_B_28
-      rect:
-        serializedVersion: 2
-        x: 537
-        y: 534
-        width: 15
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c45d07ccf31bc1680800000000000000
-      internalID: -8782950285708307124
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Outside_B_29
       rect:
         serializedVersion: 2
         x: 674
         y: 528
-        width: 94
+        width: 47
         height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2919,6 +2898,90 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Outside_B_28
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 623
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8fd6a593071d54f87838d6e9b65b2e
+      internalID: -8782950285708307124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outside_B_116
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 623
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21455891000f8b4e9071a42b34bb8ac
+      internalID: -34679990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outside_B_117
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 575
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1896aed755c98240858a09dca421c35
+      internalID: 478699976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Outside_B_118
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 526
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815bd98e042a2514f806f961b733af1a
+      internalID: 1975837520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -2950,6 +3013,9 @@ TextureImporter:
       Outside_B_113: -5015405876726974252
       Outside_B_114: 7122739634862221960
       Outside_B_115: -4047249030293245659
+      Outside_B_116: -34679990
+      Outside_B_117: 478699976
+      Outside_B_118: 1975837520
       Outside_B_12: 9177562757671616933
       Outside_B_13: -8137043640038042228
       Outside_B_14: -8809978796967460161

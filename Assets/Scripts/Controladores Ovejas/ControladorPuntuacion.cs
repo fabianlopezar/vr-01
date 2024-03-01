@@ -1,14 +1,16 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
+using System;
 
 public class ControladorPuntuacion : MonoBehaviour
 {
   public static ControladorPuntuacion Instance { get; private set; }
 
     public TextMeshProUGUI puntuacionTMP;
+    public TMP_Text _nombreTMP;
     public int puntuacion;
-    public string nombre;
+    public string _nombre;
 
     private void Awake()
     {
@@ -27,5 +29,10 @@ public class ControladorPuntuacion : MonoBehaviour
     {   
         puntuacion = puntuacion + 10;
         puntuacionTMP.text = "" + puntuacion;
+    }
+    public void GuardarNombre()
+    {
+       _nombre = _nombreTMP.text;
+        Debug.Log("el nombre es: " + _nombre);
     }
 }

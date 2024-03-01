@@ -8,6 +8,7 @@ public class TriggerWin : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        panelWin.SetActive(true);
+    // if(other.CompareTag("Player"))
+        //panelWin.SetActive(true);
     }
 }

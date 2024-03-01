@@ -44,5 +44,11 @@ public class CharacterMove : MonoBehaviour
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("speed", movement.sqrMagnitude);
     }
-
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Finish"))
+        { moveSpeed = 0;
+            Debug.Log("lo toco");
+        }
+    }
 }

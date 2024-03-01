@@ -60,10 +60,11 @@ public class Soldado_atack : MonoBehaviour
             MovementCharacter(movement); 
         }
         //MUERTE
+        
         if (vidaSoldado.vidaActual <= 0)
         {
             Muerte();
-            
+            //if()
 
         }
     }
@@ -79,11 +80,17 @@ public class Soldado_atack : MonoBehaviour
         Destroy(this.GetComponent<BoxCollider2D>());
         estaMuerto = true;
         StartCoroutine(Espera());
+        bool activo = false;
+        if (activo == false)
+        {
+            ControladorPuntuacion.Instance.AddPuntuacion();//esta linea solo sirve para la esccena parcial.;
+            activo = true;
+        }
     }
     IEnumerator Espera()
     {
         yield return new WaitForSeconds(7f);
-        ControladorPuntuacion.Instance.AddPuntuacion();//esta linea solo sirve para la esccena parcial.
+       
         Destroy(this.gameObject);
     }
     private void MoveAnim()

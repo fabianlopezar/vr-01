@@ -63,6 +63,8 @@ public class Soldado_atack : MonoBehaviour
         if (vidaSoldado.vidaActual <= 0)
         {
             Muerte();
+            
+
         }
     }
 
@@ -72,6 +74,7 @@ public class Soldado_atack : MonoBehaviour
     }
     void Muerte()
     {
+        this.tag = "EnemyDead";
         anim.SetBool("Muerto", true);
         Destroy(this.GetComponent<BoxCollider2D>());
         estaMuerto = true;
@@ -80,6 +83,7 @@ public class Soldado_atack : MonoBehaviour
     IEnumerator Espera()
     {
         yield return new WaitForSeconds(7f);
+        ControladorPuntuacion.Instance.AddPuntuacion();//esta linea solo sirve para la esccena parcial.
         Destroy(this.gameObject);
     }
     private void MoveAnim()

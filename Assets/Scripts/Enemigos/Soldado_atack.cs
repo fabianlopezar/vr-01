@@ -47,8 +47,12 @@ public class Soldado_atack : MonoBehaviour
             Collider2D[] playerToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsPlayerTo);
         for (int i = 0; i < playerToDamage.Length; i++)
         {
-            playerToDamage[i].GetComponent<Vida_Player>().takeDamage();
-        } 
+                Vida_Player vidaPlayer = playerToDamage[i].GetComponent<Vida_Player>();
+                if (vidaPlayer != null)
+                {
+                    vidaPlayer.takeDamage();
+                }
+            } 
         }
         else
         {

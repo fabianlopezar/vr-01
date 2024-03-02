@@ -11,6 +11,8 @@ public class ControladorPuntuacion : MonoBehaviour
     public TMP_Text _nombreTMP;
     public int puntuacion;
     public string _nombre;
+    public TMP_Text puntuacionMostrarPerdiste;
+  //  public string _nombreMostrarPerdiste;
 
     private void Awake()
     {
@@ -29,7 +31,10 @@ public class ControladorPuntuacion : MonoBehaviour
     {   
         puntuacion = puntuacion + 10;
         puntuacionTMP.text = "" + puntuacion;
-    }
+
+             puntuacionMostrarPerdiste.text= ""+puntuacion;
+     
+}
     public void GuardarNombre()
     {
        _nombre = _nombreTMP.text;

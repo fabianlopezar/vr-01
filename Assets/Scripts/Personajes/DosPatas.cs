@@ -97,14 +97,14 @@ public class DosPatas : Enemigos
         anim.SetBool("Muerto", true);
         Destroy(this.GetComponent<BoxCollider2D>());
         estaMuerto = true;
-        StartCoroutine(Espera());
+      //  StartCoroutine(Espera());
     }
-    IEnumerator Espera()
+   /* IEnumerator Espera()
     {
         yield return new WaitForSeconds(7f);
         _questManager.SumarTarea(_id);
         Destroy(this.gameObject);
-    }
+    }*/
     private void Move()
     {
         isInChaseRange = Physics2D.OverlapCircle(transform.position, checkRadius, whatIsPlayer);

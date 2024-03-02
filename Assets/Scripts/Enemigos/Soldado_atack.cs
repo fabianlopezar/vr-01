@@ -47,8 +47,12 @@ public class Soldado_atack : MonoBehaviour
             Collider2D[] playerToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsPlayerTo);
         for (int i = 0; i < playerToDamage.Length; i++)
         {
-            playerToDamage[i].GetComponent<Vida_Player>().takeDamage();
-        } 
+                Vida_Player vidaPlayer = playerToDamage[i].GetComponent<Vida_Player>();
+                if (vidaPlayer != null)
+                {
+                    vidaPlayer.takeDamage();
+                }
+            } 
         }
         else
         {
@@ -60,10 +64,11 @@ public class Soldado_atack : MonoBehaviour
             MovementCharacter(movement); 
         }
         //MUERTE
+        
         if (vidaSoldado.vidaActual <= 0)
         {
             Muerte();
-            
+            //if()
 
         }
     }
@@ -79,11 +84,17 @@ public class Soldado_atack : MonoBehaviour
         Destroy(this.GetComponent<BoxCollider2D>());
         estaMuerto = true;
         StartCoroutine(Espera());
+        bool activo = false;
+        if (activo == false)
+        {
+            ControladorPuntuacion.Instance.AddPuntuacion();//esta linea solo sirve para la esccena parcial.;
+            activo = true;
+        }
     }
     IEnumerator Espera()
     {
         yield return new WaitForSeconds(7f);
-        ControladorPuntuacion.Instance.AddPuntuacion();//esta linea solo sirve para la esccena parcial.
+       
         Destroy(this.gameObject);
     }
     private void MoveAnim()

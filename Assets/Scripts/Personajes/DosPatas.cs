@@ -28,6 +28,8 @@ public class DosPatas : Enemigos
     public int _id;
     public static QuestManager _questManager;
 
+    bool _puntuacionAgregada = false;
+
     void Start()
     {
         _questManager = GameObject.FindObjectOfType<QuestManager>();
@@ -97,14 +99,19 @@ public class DosPatas : Enemigos
         anim.SetBool("Muerto", true);
         Destroy(this.GetComponent<BoxCollider2D>());
         estaMuerto = true;
-      //  StartCoroutine(Espera());
+        StartCoroutine(Espera());
     }
-   /* IEnumerator Espera()
+    IEnumerator Espera()
     {
+        if (!_puntuacionAgregada)
+        {
+            ControladorPuntuacion.Instance.AddPuntuacion(); // Esta línea solo se ejecutará una vez
+            _puntuacionAgregada = true;
+        }
         yield return new WaitForSeconds(7f);
-        _questManager.SumarTarea(_id);
+        //_questManager.SumarTarea(_id);
         Destroy(this.gameObject);
-    }*/
+    }
     private void Move()
     {
         isInChaseRange = Physics2D.OverlapCircle(transform.position, checkRadius, whatIsPlayer);

@@ -16,6 +16,7 @@ public class Oleadas : MonoBehaviour
     private bool enOleada;
     private int cantidadEnemigosPorOleadaActual; // Número actual de enemigos por oleada
 
+    private float timer;
     void Start()
     {
         cantidadEnemigosPorOleadaActual = cantidadEnemigosPorOleadaInicial;
@@ -57,5 +58,24 @@ public class Oleadas : MonoBehaviour
         {
             StartCoroutine(GenerarOleadas());
         }
+        timer += Time.deltaTime;
+
+        if (timer >= 40f)
+        {
+            // Instantiate x number of enemies
+            for (int i = 0; i < 50; i++)
+            {
+                Vector2 posicionAleatoria = (Random.insideUnitCircle * distanciaMinima) + (Vector2)jugador.position;
+                GameObject enemigoAleatorio = enemigos[Random.Range(0, enemigos.Length)];
+                Instantiate(enemigoAleatorio, posicionAleatoria, Quaternion.identity);
+            }
+            timer = 0f;
+        }
+
+        if (!enOleada && GameObject.FindGameObjectsWithTag("Enemigo").Length == 0)
+        {
+            StartCoroutine(GenerarOleadas());
+        }
     }
+
 }

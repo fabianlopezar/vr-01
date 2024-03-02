@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 using System;
+using System.IO;
 using System.Collections.Generic;
 //-------------------------Ranking
 public class Jugador
@@ -27,7 +28,7 @@ public class ControladorPuntuacion : MonoBehaviour
     //  public string _nombreMostrarPerdiste;
     //-------------------------Ranking
     private List<Jugador> listaJugadores = new List<Jugador>();
-
+    private string rutaArchivo = "jugadores.json";
     private void Awake()
     {
         if (Instance == null)
@@ -56,13 +57,33 @@ public class ControladorPuntuacion : MonoBehaviour
        // GuardarPuntaje(_nombre, _puntuacion);
     }
 
-    //-------------------------Ranking
-    
+    //------------------------- Ranking
+    void Start()
+    {
+        CargarPuntajes();
+    }
+
     public void GuardarPuntaje()
     {
         Jugador nuevoJugador = new Jugador(_nombre, _puntuacion);
         listaJugadores.Add(nuevoJugador);
+        GuardarPuntajes();
         ImprimirPuntajes();
+    }
+
+    public void CargarPuntajes()
+    {
+        if (File.Exists(rutaArchivo))
+        {
+            string json = File.ReadAllText(rutaArchivo);
+            listaJugadores = JsonUtility.FromJson<List<Jugador>>(json);
+        }
+    }
+
+    public void GuardarPuntajes()
+    {
+        string json = JsonUtility.ToJson(listaJugadores);
+        File.WriteAllText(rutaArchivo, json);
     }
 
     public void ImprimirPuntajes()
